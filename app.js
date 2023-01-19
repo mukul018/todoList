@@ -120,9 +120,7 @@ app.get("/:customListName", function(req, res){
                 res.render("list", { listTitle: foundList.name, newListItems : foundList.items });
             }
         }
-    });
-
-    
+    }); 
 });
 
 app.post("/", function(req, res){
